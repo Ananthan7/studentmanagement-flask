@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Student</title>
+<link rel="stylesheet" href="{{url_for('static',filename='bootstrap.css')}}">
+<body>
+<div class="container-fluid">
+<table border= 1px solid black>
+<tr>
+<th>Name</th>
+<th>Address</th>
+<th>City</th>
+<th>Pincode</th>
+</tr>
+{% for row in rows %}
+<tr>
+<td>{{row['name']}}</td>
+<td>{{row['Address']}}</td>
+<td>{{row['city']}}</td>
+<td>{{row['pin']}}</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+<a href='/'>Go back to home page</a>
+</body>
+</html>

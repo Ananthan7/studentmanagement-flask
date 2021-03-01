@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+</head>
+<body>
+<div>
+    <table style="border: 1px solid; padding: 20px; ">
+        {% for i,j in x.items() %}
+        <tr>
+            <td>subject</td>
+            <td>{{i}}</td>
+        </tr>
+        <tr>
+            <td>marks</td>
+            <td>{{j}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+</body>
+</html>

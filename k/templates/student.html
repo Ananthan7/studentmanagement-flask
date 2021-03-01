@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student</title>
+<link rel="stylesheet" href="{{url_for('static',filename='bootstrap.css')}}">
+</head>
+<body>
+<form action="{{url_for('addrec')}}" method="POST">
+<h3> Student Information</h3>
+<div class="container-fluid">
+<div class="form-group">
+Name<input type="text" class="form-control" name="nm">
+</div>
+<div class="form-group">
+Address<input type="text" class="form-control"  name="addr">
+</div>
+<div class="form-group">
+City<input type="text" class="form-control" name="city">
+</div>
+<div class="form-group">
+Pincode<input type="text" class="form-control" name="pin">
+</div>
+<div class="form-group">
+<input type="submit">
+</div>
+</div>
+</form>
+</body>
+</html>
