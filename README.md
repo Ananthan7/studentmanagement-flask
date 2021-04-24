@@ -1,2 +1,2 @@
-# studentmanagement-flask\
-Simple students portal for collection of details
+# studentmanagement-flask
+Simple students portal for collection of details of collage students
